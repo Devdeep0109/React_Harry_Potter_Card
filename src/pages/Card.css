@@ -1,0 +1,23 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.PostCard{
+    
+    border-radius: 2px solid black;
+
+}
+.image{
+    padding: 5px;
+    width: 15rem;
+    height:15rem;
+    border-radius: 50%;
+    border: 4px solid rgb(147, 142, 142);
+}
+h1{
+    text-align: center;
+}
